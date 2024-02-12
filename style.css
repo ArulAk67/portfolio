@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 968px) {
     :root {
-        --big-font-size: 3.385rem;
+        --big-font-size: 3.5rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
         --smaller-font-size: .875rem;
@@ -199,11 +199,13 @@ img {
 
 .home__data {
     align-self: center;
+    z-index: 200;
 }
 
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
+    z-index: 100;
 }
 
 .home__title-color {
